@@ -79,7 +79,7 @@ public class PhoneBookService
     {
         try
         {
-            Console.Write("O‘chiriladigan ism: ");
+            Console.Write("O'chiriladigan ism: ");
             string name = Console.ReadLine();
 
             var contacts = fileBroker.ReadContacts();
